@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/video.css">
   </head>
-  <body>
+  <body class="body_bg">
     <div class="container-fluid">
       <div id="header"></div>
       <div class="video_main container_main">
         <div class="video_main_left">
+          <div class="video_main_line visible-xs"></div>
           <ul class="video_main_list"></ul>
-          <div class="container_pagination">
+          <div class="container_pagination hidden-xs">
             <p>共3页49条</p>
             <nav aria-label="Page navigation">
               <ul class="pagination">
@@ -39,7 +40,7 @@
             </nav>
           </div>
         </div>
-        <div class="video_main_right">
+        <div class="video_main_right hidden-xs">
           <div class="video_main_right_hot_title">热门直播</div>
           <div class="video_main_right_hot"></div>
           <div class="video_main_right_tag_title">标签</div>

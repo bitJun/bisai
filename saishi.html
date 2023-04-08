@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/saishi.css">
   </head>
-  <body>
+  <body class="body_bg">
     <div class="container-fluid">
       <div id="header"></div>
       <div class="saishi_view container_main">
-        <div class="breadcrumb_view">
+        <div class="breadcrumb_view hidden-xs">
           当前位置：
           <ol class="breadcrumb">
             <li><a class="red" href="#">首页 > </a></li>
@@ -39,80 +39,130 @@
           </div>
         </div>
         <div class="saishi_view_section">
-          <h3 class="saishi_view_title">
+          <h3 class="saishi_view_title hidden-xs">
             篮球直播
           </h3>
+          <div class="saishi_view_title visible-xs">
+            <h3>
+              直播
+            </h3>
+          </div>
         </div>
         <div class="saishi_view_main">
           <div class="saishi_view_main_section">
             <div class="saishi_view_main_section_list"></div>
           </div>
           <div class="news">
-            <div class="news_title">最近资讯</div>
-            <ul class="news_list">       
-              <li class="news_list_item">
-                <a target="_blank" class="item_img" href="/">
-                  <img alt="佛光普照！克莱飙12记三分爆砍42分 勇士27分痛宰雷霆" src="http://cms-bucket.ws.126.net/2023/0207/04d35961p00rpp1yn001dc0009c0070c.png?imageView&amp;thumbnail=140y88"> 
-                </a>
-                <h3 class="news_list_item_text">
-                  <a target="_blank" href="/">佛光普照！克莱飙12记三分爆砍42分 勇士27分痛宰雷霆 </a>
-                </h3>
-              </li>
-              <li class="news_list_itemsingle">
-                <a href="/" title="詹杜又错过!篮网送湖人连败 欧文26分轰神仙球威少里程碑" target="_blank">
-                  <h3>詹杜又错过!篮网送湖人连败 欧文26分轰神仙球威少里程碑</h3>
-                </a>
-              </li>
-              <li class="news_list_itemsingle">
-                <a href="/" title="怒了！詹姆斯被球迷喷垃圾话 差点动手被保安拦住" target="_blank">
-                  <h3>怒了！詹姆斯被球迷喷垃圾话 差点动手被保安拦住</h3>
-                </a>
-              </li>
-              <li class="news_list_itemsingle">
-                <a href="/" title="曝库里不满勇士低迷 施压管理层尽快完成补强" target="_blank">
-                  <h3>曝库里不满勇士低迷 施压管理层尽快完成补强</h3>
-                </a>
-              </li>
-            </ul>
-            <div class="tuijian_title">最近视频</div>
-            <ul class="tuijian">
-              <li>
-                <a target="_blank" href="/">
-                  <img alt="【全场精华】日本第25届高中女子足球锦标赛决赛， 十文字1-0战胜大商学園" src="https://m.ykimg.com/054F04085873D22E6A0A4B045389C42F?x-oss-process=image/resize,w_500">
-                  <h3>【全场精华】日本第25届高中女子足球锦标赛决赛， 十文字1-0战胜大商学園</h3>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="/">
-                  <img alt="天才“芒特”全能高光集锦！绝对的爆点" src="https://m.ykimg.com/054F010161EF6C132C400714A0CBEC86?x-oss-process=image/resize,w_500">
-                  <h3>天才“芒特”全能高光集锦！绝对的爆点</h3>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="/">
-                  <img alt="不吹不黑，皇马时期的C罗处于巅峰，那是他最好的时代" src="https://m.ykimg.com/054F01015FFC237E04CD82A70CC888C6?x-oss-process=image/resize,w_500">
-                  <h3>不吹不黑，皇马时期的C罗处于巅峰，那是他最好的时代</h3>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="/">
-                  <img alt="美国顶级篮球训练师和NBA球员单挑会怎样？身体素质被碾压" src="https://m.ykimg.com/054F01015E8DD8C90F954C9BF31B586D?x-oss-process=image/resize,w_500">
-                  <h3>美国顶级篮球训练师和NBA球员单挑会怎样？身体素质被碾压</h3>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="/">
-                  <img alt="两次发球低级失误，邓华德赛中怒吼李根，称必须会防守" src="https://m.ykimg.com/054F01015ECFB88EAD98E79025E1EA09?x-oss-process=image/resize,w_500">
-                  <h3>两次发球低级失误，邓华德赛中怒吼李根，称必须会防守</h3>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="/">
-                  <img alt="感受下NBA硬核控球大师德鲁大叔的魅力" src="https://m.ykimg.com/054F01015ED7B0940F954C95A2B16DCB?x-oss-process=image/resize,w_500">
-                  <h3>感受下NBA硬核控球大师德鲁大叔的魅力</h3>
-                </a>
-              </li>
-            </ul>
+            <div class="warp hidden-xs">
+              <div class="news_title">最近资讯</div>
+              <ul class="news_list">       
+                <li class="news_list_item">
+                  <a target="_blank" class="item_img" href="/">
+                    <img alt="佛光普照！克莱飙12记三分爆砍42分 勇士27分痛宰雷霆" src="http://cms-bucket.ws.126.net/2023/0207/04d35961p00rpp1yn001dc0009c0070c.png?imageView&amp;thumbnail=140y88"> 
+                  </a>
+                  <h3 class="news_list_item_text">
+                    <a target="_blank" href="/">佛光普照！克莱飙12记三分爆砍42分 勇士27分痛宰雷霆 </a>
+                  </h3>
+                </li>
+                <li class="news_list_itemsingle">
+                  <a href="/" title="詹杜又错过!篮网送湖人连败 欧文26分轰神仙球威少里程碑" target="_blank">
+                    <h3>詹杜又错过!篮网送湖人连败 欧文26分轰神仙球威少里程碑</h3>
+                  </a>
+                </li>
+                <li class="news_list_itemsingle">
+                  <a href="/" title="怒了！詹姆斯被球迷喷垃圾话 差点动手被保安拦住" target="_blank">
+                    <h3>怒了！詹姆斯被球迷喷垃圾话 差点动手被保安拦住</h3>
+                  </a>
+                </li>
+                <li class="news_list_itemsingle">
+                  <a href="/" title="曝库里不满勇士低迷 施压管理层尽快完成补强" target="_blank">
+                    <h3>曝库里不满勇士低迷 施压管理层尽快完成补强</h3>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="warp visible-xs">
+              <div class="tuijian_title">最近资讯</div>
+              <ul class="tuijian">
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="【全场精华】日本第25届高中女子足球锦标赛决赛， 十文字1-0战胜大商学園" src="https://m.ykimg.com/054F04085873D22E6A0A4B045389C42F?x-oss-process=image/resize,w_500">
+                    <h3>【全场精华】日本第25届高中女子足球锦标赛决赛， 十文字1-0战胜大商学園</h3>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="天才“芒特”全能高光集锦！绝对的爆点" src="https://m.ykimg.com/054F010161EF6C132C400714A0CBEC86?x-oss-process=image/resize,w_500">
+                    <h3>天才“芒特”全能高光集锦！绝对的爆点</h3>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="不吹不黑，皇马时期的C罗处于巅峰，那是他最好的时代" src="https://m.ykimg.com/054F01015FFC237E04CD82A70CC888C6?x-oss-process=image/resize,w_500">
+                    <h3>不吹不黑，皇马时期的C罗处于巅峰，那是他最好的时代</h3>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="美国顶级篮球训练师和NBA球员单挑会怎样？身体素质被碾压" src="https://m.ykimg.com/054F01015E8DD8C90F954C9BF31B586D?x-oss-process=image/resize,w_500">
+                    <h3>美国顶级篮球训练师和NBA球员单挑会怎样？身体素质被碾压</h3>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="两次发球低级失误，邓华德赛中怒吼李根，称必须会防守" src="https://m.ykimg.com/054F01015ECFB88EAD98E79025E1EA09?x-oss-process=image/resize,w_500">
+                    <h3>两次发球低级失误，邓华德赛中怒吼李根，称必须会防守</h3>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="感受下NBA硬核控球大师德鲁大叔的魅力" src="https://m.ykimg.com/054F01015ED7B0940F954C95A2B16DCB?x-oss-process=image/resize,w_500">
+                    <h3>感受下NBA硬核控球大师德鲁大叔的魅力</h3>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="warp">
+              <div class="tuijian_title">最近视频</div>
+              <ul class="tuijian">
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="【全场精华】日本第25届高中女子足球锦标赛决赛， 十文字1-0战胜大商学園" src="https://m.ykimg.com/054F04085873D22E6A0A4B045389C42F?x-oss-process=image/resize,w_500">
+                    <h3>【全场精华】日本第25届高中女子足球锦标赛决赛， 十文字1-0战胜大商学園</h3>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="天才“芒特”全能高光集锦！绝对的爆点" src="https://m.ykimg.com/054F010161EF6C132C400714A0CBEC86?x-oss-process=image/resize,w_500">
+                    <h3>天才“芒特”全能高光集锦！绝对的爆点</h3>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="不吹不黑，皇马时期的C罗处于巅峰，那是他最好的时代" src="https://m.ykimg.com/054F01015FFC237E04CD82A70CC888C6?x-oss-process=image/resize,w_500">
+                    <h3>不吹不黑，皇马时期的C罗处于巅峰，那是他最好的时代</h3>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="美国顶级篮球训练师和NBA球员单挑会怎样？身体素质被碾压" src="https://m.ykimg.com/054F01015E8DD8C90F954C9BF31B586D?x-oss-process=image/resize,w_500">
+                    <h3>美国顶级篮球训练师和NBA球员单挑会怎样？身体素质被碾压</h3>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="两次发球低级失误，邓华德赛中怒吼李根，称必须会防守" src="https://m.ykimg.com/054F01015ECFB88EAD98E79025E1EA09?x-oss-process=image/resize,w_500">
+                    <h3>两次发球低级失误，邓华德赛中怒吼李根，称必须会防守</h3>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <img alt="感受下NBA硬核控球大师德鲁大叔的魅力" src="https://m.ykimg.com/054F01015ED7B0940F954C95A2B16DCB?x-oss-process=image/resize,w_500">
+                    <h3>感受下NBA硬核控球大师德鲁大叔的魅力</h3>
+                  </a>
+                </li>
+              </ul>
+            </div>
             <!-- <div class="news_tag_title">标签</div>
             <div class="news_tag"></div> -->
           </div>

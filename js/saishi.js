@@ -80,13 +80,20 @@ $(function(){
     str += '<ul class="saishi_view_main_section_list_main_scetion">';
     item.list.forEach(json=>{
       str += '<li class="saishi_view_main_section_list_main_scetion_item">';
+      str += '<div class="visible_web hidden-xs">'
       str += '<p class="saishi_view_main_section_list_main_scetion_item_time">'+json.time+'</p>';
       str += '<p class="saishi_view_main_section_list_main_scetion_item_name"><a>'+json.name+'</a></p>';
       str += '<p class="saishi_view_main_section_list_main_scetion_item_status">'+json.status+'</p>';
       str += '<div class="saishi_view_main_section_list_main_scetion_item_team1">'+json.team1+'<img src="'+json.team1Icon+'" ></div>';
       str += '<div class="saishi_view_main_section_list_main_scetion_item_rate">'+json.rate+'</div>';
       str += '<div class="saishi_view_main_section_list_main_scetion_item_team2"><img src="'+json.team2Icon+'" >'+json.team2+'</div>';
-      str += '<div class="saishi_view_main_section_list_main_scetion_item_action"><a href="/saishi_detail.html" target="_blank">观看比赛</a></div>';
+      str += '<div class="saishi_view_main_section_list_main_scetion_item_action"><a href="/saishi_detail.html" target="_blank">观看比赛</a></div></div>';
+      str += '<div class="visible_mobile visible-xs">';
+      str += '<aside><img class="visible_mobile_img" src="'+json.team1Icon+'" alt="'+json.team1+'"><p class="visible_mobile_team">'+json.team1+'</p></aside>';
+      str += '<aside><p class="visible_mobile_time">'+json.time+'&nbsp;'+json.name+'</p><p class="visible_mobile_status">'+json.status+'</p>';
+      str += '<div class="visible_mobile_action"><a>观看直播</a></div></aside>';
+      str += '<aside><img class="visible_mobile_img" src="'+json.team2Icon+'" alt="'+json.team2+'"><p class="visible_mobile_team">'+json.team2+'</p></aside>';
+      str += '</div>';
       str += '</li>';
     });
     str += '</ul>';

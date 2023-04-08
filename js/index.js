@@ -107,14 +107,20 @@ $(function(){
     str += '<ul class="index_view_saishi_section_list_main_scetion">';
     item.list.forEach(json=>{
       str += '<li class="index_view_saishi_section_list_main_scetion_item">';
+      str += '<div class="visible_web hidden-xs">'
       str += '<p class="index_view_saishi_section_list_main_scetion_item_time">'+json.time+'</p>';
       str += '<p class="index_view_saishi_section_list_main_scetion_item_name"><a>'+json.name+'</a></p>';
       str += '<p class="index_view_saishi_section_list_main_scetion_item_status">'+json.status+'</p>';
-      str += '<div class="index_view_saishi_section_list_main_scetion_item_team1">'+json.team1+'<img src="'+json.team1Icon+'" ></div>';
+      str += '<div class="index_view_saishi_section_list_main_scetion_item_team1">'+json.team1+'<img src="'+json.team1Icon+'" alt="'+json.team1+'"></div>';
       str += '<div class="index_view_saishi_section_list_main_scetion_item_rate">'+json.rate+'</div>';
-      str += '<div class="index_view_saishi_section_list_main_scetion_item_team2"><img src="'+json.team2Icon+'" >'+json.team2+'</div>';
-      str += '<div class="index_view_saishi_section_list_main_scetion_item_action"><a>观看比赛</a></div>';
-      str += '</li>';
+      str += '<div class="index_view_saishi_section_list_main_scetion_item_team2"><img src="'+json.team2Icon+'" alt="'+json.team2+'">'+json.team2+'</div>';
+      str += '<div class="index_view_saishi_section_list_main_scetion_item_action"><a>观看比赛</a></div></div>';
+      str += '<div class="visible_mobile visible-xs">';
+      str += '<aside><img class="visible_mobile_img" src="'+json.team1Icon+'" alt="'+json.team1+'"><p class="visible_mobile_team">'+json.team1+'</p></aside>';
+      str += '<aside><p class="visible_mobile_time">'+json.time+'&nbsp;'+json.name+'</p><p class="visible_mobile_status">'+json.status+'</p>';
+      str += '<div class="visible_mobile_action"><a>观看直播</a></div></aside>';
+      str += '<aside><img class="visible_mobile_img" src="'+json.team2Icon+'" alt="'+json.team2+'"><p class="visible_mobile_team">'+json.team2+'</p></aside>';
+      str += '</div></li>';
     });
     str += '</ul>';
     str += '</div>';
@@ -131,4 +137,7 @@ $(function(){
     tagstr += '<div class="news_tag_item"><a href="/">'+item+'</a></div>'
   });
   $('.news_tag').html(tagstr);
+  $("#myCarousel").carousel({
+    interval: 10000
+  });
 })
