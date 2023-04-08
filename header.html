@@ -39,8 +39,42 @@
       <a class="m_header_main_action">
         <img
           src="./images/icon_nav.png"
+          class="m_header_main_action_menu"
+        />
+        <img
+          src="./images/icon_close.png"
+          class="m_header_main_action_close"
         />
       </a>
     </div>
+    <div class="header_view_nav_container">
+      <h3>快速导航</h3>
+      <a class="header_view_nav_container_item" href="/">首页</a>
+      <a class="header_view_nav_container_item" href="/saishi.html">足球直播</a>
+      <a class="header_view_nav_container_item" href="/saishi.html">篮球直播</a>
+      <a class="header_view_nav_container_item" href="/video.html">足球视频</a>
+      <a class="header_view_nav_container_item" href="/video.html">篮球视频</a>
+      <a class="header_view_nav_container_item" href="/news.html">足球新闻</a>
+      <a class="header_view_nav_container_item" href="/news.html">篮球新闻</a>
+    </div>
   </div>
 </div>
+<script src="./js/jquery.min.js"></script>
+<script>
+  let showMenu = false;
+  $('.header_view_nav_container').hide();
+  $('.m_header_main_action_close').hide();
+  $('.m_header_main_action').click(function(){
+    if (showMenu) {
+      showMenu = false;
+      $('.header_view_nav_container').hide();
+      $('.m_header_main_action_close').hide();
+      $('.m_header_main_action_menu').show();
+    } else {
+      showMenu = true;
+      $('.header_view_nav_container').show();
+      $('.m_header_main_action_close').show();
+      $('.m_header_main_action_menu').hide();
+    }
+  });
+</script>

@@ -122,4 +122,32 @@
   .m_header_main_action img {
     width: 0.46rem;
   }
+  .header_view_nav_container {
+    position: fixed;
+    left: 0;
+    height: calc(100vh - 1rem);
+    background: #fff;
+    top: 1rem;
+    width: 100%;
+    padding: 0 0.6rem;
+  }
+  .header_view_nav_container h3 {
+    padding: 0.2rem 0 0.3rem 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0.4rem;
+    font: bold 0.4rem/0.7rem "Microsoft YaHei";
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+  }
+  .header_view_nav_container_item {
+    display: block;
+    height: 0.7rem;
+    padding-left: 0.5rem;
+    font: 0.28rem/0.7rem "Microsoft YaHei";
+    color: #000;
+    margin-bottom: 0.4rem;
+  }
 }

@@ -381,4 +381,54 @@ a {
   .visible_mobile_action a {
     color: #fff;
   }
+  .loadMore {
+    background-color: #eee;
+    font-size: .24rem;
+    height: 0.8rem;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.06rem;
+    margin: 0.5rem 25px 0;
+    color: #333;
+  }
+  .item {
+    padding: 12px 0;
+    border-top: solid 1px #E4E4E4;
+  }
+  .item a {
+    height: 80px;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .item a img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .item_main {
+    padding-right: 16px;
+    height: 80px;
+    flex: 1;
+  }
+  .item_main_title {
+    font-size: 16px;
+    line-height: 25px;
+    height: 50px;
+    overflow: hidden;
+    font-weight: normal;
+    color: #333;
+  }
+  .item_main a:hover .item_main_title {
+    color: #D40300;
+  }
+  .item_main_time {
+    color: #969696;
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 12px;
+  }
 }
