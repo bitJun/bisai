@@ -1,0 +1,107 @@
+@media (min-width: 767px) {
+  .video_info {
+    padding-top: 30px;
+  }
+  .video_info_section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .video_info_section_detail {
+    padding-top: 10px;
+    width: 830px;
+  }
+  .video_info_section_detail_title {
+    font-size: 30px;
+    color: #202020;
+    font-weight: bold;
+    line-height: 120%;
+    padding: 10px 0;
+  }
+  .video_info_section_detail_main {
+    line-height: 36px;
+  }
+  .video_info_section_detail_main p {
+    font-size: 18px;
+    color: #1b1b1b;
+    line-height: 36px;
+    text-indent: 2em;
+    padding-top: 24px;
+  }
+  .video_info_section_detail_video,
+  .video_info_section_detail_news {
+    margin-top: 45px;
+  }
+  .video_info_section_detail_video_title,
+  .video_info_section_detail_news_title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 14px;
+  }
+  .video_info_section_detail_video ul,
+  .video_info_section_detail_news ul {
+    list-style-type: none;
+  }
+  .video_info_section_tuijian {
+    width: 330px;
+  }
+  .video_info_section_detail_time {
+    padding: 15px 0;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    margin: 8px 0 6px;
+    position: relative;
+    font-size: 16px !important;
+    color: #747774 !important;
+    padding-right: 20px;
+    line-height: 24px;
+  }
+  .video_info_section_tuijian_title {
+    position: relative;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+    background-position: 0 -63px;
+    margin-bottom: 20px;
+  }
+  .video_info_section_tuijian_list {
+    list-style-type: none;
+  }
+  .video_info_section_tuijian_list_item {
+    padding: 10px 0;
+    height: 90px;
+    box-sizing: border-box;
+  }
+  .video_info_section_tuijian_list_item a {
+    display: flex;
+    height: 70px;
+    width: 100%;
+  }
+  .video_info_section_tuijian_list_item a img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+  }
+  .video_info_section_tuijian_list_item_main {
+    padding-left: 15px;
+    padding-top: 2px;
+    line-height: 22px;
+    height: 66px;
+    font-size: 16px;
+    color: #000;
+  }
+  .video_info_section_tuijian_list_item a:hover .video_info_section_tuijian_list_item_main {
+    color: #D40300;
+  }
+}
+@media (max-width: 767px) {
+  .video_info {
+    
+  }
+}

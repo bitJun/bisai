@@ -5,49 +5,49 @@ $(function(){
     {
       img: 'https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2023%2F0329%2Fea0d0df8p00rs96yn001jc0009c0070c.png&thumbnail=140y88&quality=100&type=jpg',
       title: '德国首发阵容出炉',
-      link: 'https://www.baidu.com',
+      link: '/video_detail.html',
       time: '2023-03-31'
     },
     {
       img: 'https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2023%2F0329%2Fea0d0df8p00rs96yn001jc0009c0070c.png&thumbnail=140y88&quality=100&type=jpg',
       title: '德国首发阵容出炉',
-      link: 'https://www.baidu.com',
+      link: '/video_detail.html',
       time: '2023-03-31'
     },
     {
       img: 'https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2023%2F0329%2Fea0d0df8p00rs96yn001jc0009c0070c.png&thumbnail=140y88&quality=100&type=jpg',
       title: '德国首发阵容出炉',
-      link: 'https://www.baidu.com',
+      link: '/video_detail.html',
       time: '2023-03-31'
     },
     {
       img: 'https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2023%2F0329%2Fea0d0df8p00rs96yn001jc0009c0070c.png&thumbnail=140y88&quality=100&type=jpg',
       title: '德国首发阵容出炉',
-      link: 'https://www.baidu.com',
+      link: '/video_detail.html',
       time: '2023-03-31'
     },
     {
       img: 'https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2023%2F0329%2Fea0d0df8p00rs96yn001jc0009c0070c.png&thumbnail=140y88&quality=100&type=jpg',
       title: '德国首发阵容出炉',
-      link: 'https://www.baidu.com',
+      link: '/video_detail.html',
       time: '2023-03-31'
     },
     {
       img: 'https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2023%2F0329%2Fea0d0df8p00rs96yn001jc0009c0070c.png&thumbnail=140y88&quality=100&type=jpg',
       title: '德国首发阵容出炉',
-      link: 'https://www.baidu.com',
+      link: '/video_detail.html',
       time: '2023-03-31'
     },
     {
       img: 'https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2023%2F0329%2Fea0d0df8p00rs96yn001jc0009c0070c.png&thumbnail=140y88&quality=100&type=jpg',
       title: '德国首发阵容出炉',
-      link: 'https://www.baidu.com',
+      link: '/video_detail.html',
       time: '2023-03-31'
     },
     {
       img: 'https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2023%2F0329%2Fea0d0df8p00rs96yn001jc0009c0070c.png&thumbnail=140y88&quality=100&type=jpg',
       title: '德国首发阵容出炉',
-      link: 'https://www.baidu.com',
+      link: '/video_detail.html',
       time: '2023-03-31'
     }
   ]

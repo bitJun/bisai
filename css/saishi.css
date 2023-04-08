@@ -2,30 +2,6 @@
   .saishi_view {
     padding-top: 30px;
   }
-  .saishi_view_breadcrumb {
-    display: flex;
-    align-items: center;
-    height: 25px;
-    color: #404040;
-    font-size: 14px;
-  }
-  .saishi_view_breadcrumb .breadcrumb {
-    margin: 0;
-    background: #ffffff;
-    padding: 0;
-  }
-  .saishi_view_breadcrumb .breadcrumb li a {
-    color: #404040;
-  }
-  .saishi_view_breadcrumb .breadcrumb li a.red {
-    color: #D40300;
-  }
-  .saishi_view_breadcrumb .breadcrumb li a:hover {
-    color: #D40300;
-  }
-  .saishi_view_breadcrumb .breadcrumb li::before {
-    display: none;
-  }
   .saishi_view_nav {
     display: flex;
     align-items: center;

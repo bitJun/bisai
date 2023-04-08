@@ -86,7 +86,7 @@ $(function(){
       str += '<div class="saishi_view_main_section_list_main_scetion_item_team1">'+json.team1+'<img src="'+json.team1Icon+'" ></div>';
       str += '<div class="saishi_view_main_section_list_main_scetion_item_rate">'+json.rate+'</div>';
       str += '<div class="saishi_view_main_section_list_main_scetion_item_team2"><img src="'+json.team2Icon+'" >'+json.team2+'</div>';
-      str += '<div class="saishi_view_main_section_list_main_scetion_item_action"><a>观看比赛</a></div>';
+      str += '<div class="saishi_view_main_section_list_main_scetion_item_action"><a href="/saishi_detail.html" target="_blank">观看比赛</a></div>';
       str += '</li>';
     });
     str += '</ul>';
