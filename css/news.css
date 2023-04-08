@@ -1,0 +1,115 @@
+@media (min-width: 767px) {
+  .news_main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .news_main_list {
+    width: 830px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    list-style-type: none;
+  }
+  .news_main_list_item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  .news_main_list_item:hover {
+    background-color: #f8f8f8;
+  }
+  .news_main_list_item a {
+    display: block;
+    display: flex;
+    text-decoration: none;
+  }
+  .news_main_list_item_img {
+    width: 153px;
+    height: 102px;
+    margin-right: 28px;
+    overflow: hidden;
+    position: relative;
+  }
+  .news_main_list_item_img img {
+    max-width: 153px;
+    max-height: 100px;
+  }
+  .news_main_list_item_content {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .news_main_list_item_content_title {
+    color: #202020;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    max-height: 56px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .news_main_list_item_content_title:hover {
+    color: #e60012;
+  }
+  .news_main_list_item_content_time {
+    color: #999;
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .news_main_right {
+    width: 330px;
+  }
+  .news_main_right_hot_title,
+  .news_main_right_tag_title {
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+    background-position: 0 -270px;
+    margin-bottom: 10px;
+  }
+  .news_main_right_hot_title {
+    background-position: 0 -30px;
+  }
+  .news_main_right_tag {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .news_main_right_tag_item {
+
+  }
+  .news_main_right_tag_item a {
+    display: flex;
+    padding: 8px 10px;
+    display: block;
+    border: 1px solid #f1593e;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  .news_main_right_tag_item a:hover {
+    background: #f1593e;
+    color: #fff;
+  }
+  .news_main_right_hot {
+    margin-top: 10px;
+    margin-bottom: 24px;
+  }
+  .news_main_right_hot_item {
+    list-style: none;
+  }
+  .news_main_right_hot_item a {
+    display: block;
+    height: 21px;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .news_main_right_hot_item a:hover {
+    color: #D40300;
+  }
+}

@@ -1,0 +1,173 @@
+@media (min-width: 767px) {
+  .saishi_view {
+    padding-top: 30px;
+  }
+  .saishi_view_breadcrumb {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    color: #404040;
+    font-size: 14px;
+  }
+  .saishi_view_breadcrumb .breadcrumb {
+    margin: 0;
+    background: #ffffff;
+    padding: 0;
+  }
+  .saishi_view_breadcrumb .breadcrumb li a {
+    color: #404040;
+  }
+  .saishi_view_breadcrumb .breadcrumb li a.red {
+    color: #D40300;
+  }
+  .saishi_view_breadcrumb .breadcrumb li a:hover {
+    color: #D40300;
+  }
+  .saishi_view_breadcrumb .breadcrumb li::before {
+    display: none;
+  }
+  .saishi_view_nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #fdd;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .saishi_view_nav_item {
+    padding: 5px;
+  }
+  .saishi_view_nav_item a {
+    display: block;
+    font-size: 15px;
+    color: #000;
+  }
+  .saishi_view_nav_item a:hover {
+    color: #D40300;
+  }
+  .saishi_view_section {
+    padding-top: 12px;
+    height: 42px;
+    line-height: 42px;
+    border-top: solid 1px #D40300;
+    background-size: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  .saishi_view_title {
+    height: 42px;
+    padding-left: 37px;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../images/icon2.png);
+    background-repeat: no-repeat;
+    background-size: 50px auto;
+    color: #000;
+    position: relative;
+    background-position: 0 -48px;
+    padding-right: 5px;
+  }
+  .saishi_view_main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .saishi_view_main_section {
+    padding-top: 10px;
+    width: 830px;
+  }
+  .saishi_view_main_section_list {
+
+  }
+  .saishi_view_main_section_list_main {
+    margin-bottom: 24px;
+  }
+  .saishi_view_main_section_list_main_title {
+    position: relative;
+    padding-left: 22px;
+    font-family: Helvetica;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    color: #333;
+    border-bottom: 1px solid #f1f1f1;
+    margin-top: 10px;
+    box-sizing: content-box;
+  }
+  .saishi_view_main_section_list_main_title::after {
+    background: #f14734;
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    margin-top: -16px;
+    content: "";
+    width: 5px;
+    height: 19px;
+  }
+  .saishi_view_main_section_list_main_scetion {}
+  .saishi_view_main_section_list_main_scetion_item {
+    border-bottom: 1px solid #f1f1f1;
+    height: 65px;
+    line-height: 65px;
+    color: #333;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  .saishi_view_main_section_list_main_scetion_item_time {
+    width: 60px;
+  }
+  .saishi_view_main_section_list_main_scetion_item_name {
+    width: 80px;
+    text-align: center;
+  }
+  .saishi_view_main_section_list_main_scetion_item_name a {
+    display: block;
+  }
+  .saishi_view_main_section_list_main_scetion_item_status {
+    width: 80px;
+    color: #888;
+  }
+  .saishi_view_main_section_list_main_scetion_item_team1,
+  .saishi_view_main_section_list_main_scetion_item_team2 {
+    width: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .saishi_view_main_section_list_main_scetion_item_team1 img,
+  .saishi_view_main_section_list_main_scetion_item_team2 img {
+    width: 30px;
+    height: 30px;
+  }
+  .saishi_view_main_section_list_main_scetion_item_team2 {
+    justify-content: flex-start;
+  }
+  .saishi_view_main_section_list_main_scetion_item_rate {
+    width: 108px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Alternate;
+    color: #4a90e2;
+  }
+  .saishi_view_main_section_list_main_scetion_item_action {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .saishi_view_main_section_list_main_scetion_item_action a {
+    width: 78px;
+    height: 32px;
+    border: 1px solid red;
+    background: #f1593e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+}
