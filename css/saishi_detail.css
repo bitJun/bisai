@@ -17,6 +17,59 @@
     background: rgba(0, 0, 0, 0.8);
     margin-bottom: 10px;
   }
+  .saishi_info_section_detail_main_info {
+    display: flex;
+    color: #9c9c9c;
+  }
+  .saishi_info_section_detail_main_info_team {
+    width: 80px;
+  }
+  .saishi_info_section_detail_main_info_team h3 {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 17px;
+  }
+  .saishi_info_section_detail_main_info_team img {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    margin-bottom: 12px;
+  }
+  .saishi_info_section_detail_main_info_meta {
+    width: 130px;
+  }
+  .saishi_info_section_detail_main_info_meta.fl {
+    margin: 0 10px 0 28px;
+  }
+  .saishi_info_section_detail_main_info_meta.fr {
+    margin: 0 28px 0 10px;
+    text-align: right;
+  }
+  .saishi_info_section_detail_main_info_meta em {
+    display: block;
+    margin-bottom: 12px;
+    font: 400 48px/80px 'Helvetica', 'Arial';
+    color: #fff;
+  }
+  .saishi_info_section_detail_main_info_meta p {
+    line-height: 20px;
+  }
+  .saishi_info_section_detail_main_info_m {
+    flex: 1;
+    text-align: center;
+  }
+  .saishi_info_section_detail_main_info_m h3 {
+    color: #55a8ff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 17px;
+  }
+  .saishi_info_section_detail_main_info_m h4 {
+    font-size: 24px;
+    line-height: 50px;
+  }
   .saishi_info_section_detail_zhibo {
 
   }
@@ -157,7 +210,7 @@
     line-height: 0.48rem;
     color: #c8c8c8;
   }
-  .saishi_info_section_detail_main {
+  /* .saishi_info_section_detail_main {
     padding: 0.68rem 0.27rem 0;
     background: #fff;
     font-size: .34rem;
@@ -178,7 +231,7 @@
     height: auto !important;
     border-radius: 0.1rem;
     display: block;
-  }
+  } */
   .saishi_info_section_detail_video,
   .saishi_info_section_detail_news {
     margin-top: 0.2rem;
@@ -197,5 +250,116 @@
     font-size: .38rem;
     line-height: .58rem;
     color: #ab0301;
+  }
+  
+  .saishi_info_section_detail_main {
+    background: url(../images/banner_bg.png) no-repeat 50%;
+    background-size: 100% 100%;
+    padding-top: 0.24rem ;
+    box-sizing: border-box;
+  }
+  .saishi_info_section_detail_main_info {
+    padding: 0 0.2rem 0.62rem 0.2rem;
+    display: flex;
+    color: #9c9c9c;
+  }
+  .saishi_info_section_detail_main_info_team {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  .saishi_info_section_detail_main_info_team h3 {
+    font-family: PingFangSC-Regular;
+    font-size: .28rem;
+    color: #fff !important;
+    font-weight: 400;
+    line-height: .28rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    -webkit-text-overflow:ellipsis;
+    -moz-text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+  .saishi_info_section_detail_main_info_team h3 a {
+    color: #fff
+  }
+  .saishi_info_section_detail_main_info_team img {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin: 0 0 0.3rem;
+  }
+  .saishi_info_section_detail_main_info_m {
+    flex: 2 1;
+    padding-top: 0.56rem;
+  }
+  
+  .saishi_info_section_detail_main_info_m h3 {
+    color: #55a8ff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 17px;
+  }
+  .saishi_info_section_detail_main_info_m h4 {
+    border-radius: 0.14rem;
+    padding: 0.03rem 0.24rem;
+    box-sizing: border-box;
+    opacity: .6;
+    font-family: PingFangSC-Regular;
+    font-size: .24rem;
+    color: #999;
+    padding-bottom: 0.12rem;
+  }
+  .saishi_info_section_detail_main_info_m .livepad_timecount {
+    display: flex;
+    justify-content: center;
+  }
+  .saishi_info_section_detail_main_info_m .icon_timecount {
+    background: hsla(0, 0%, 100%, .2);
+    border-radius: 0.14rem;
+    padding: 0.03rem 0.24rem;
+    box-sizing: border-box;
+    opacity: .6;
+    font-family: PingFangSC-Regular;
+    font-size: .24rem;
+    color: #fff;
+    font-weight: 400;
+  }
+  .saishi_info_section_detail_zhibo {
+    margin-top: 0.2rem;
+    padding: 0.27rem;
+    background-color: #fff;
+  }
+  .saishi_info_section_detail_zhibo .saishi_info_section_detail_zhibo_title {
+    overflow: hidden;
+    height: 0.64rem;
+    padding-left: 0.06rem;
+    border-bottom: solid 0.01rem #ab0301;
+    font-size: 0.38rem;
+    line-height: 0.58rem;
+    color: #ab0301;
+    background-size: 0.1rem auto;
+    margin-bottom: 0.27rem;
+  }
+  .saishi_info_section_detail_zhibo .saishi_info_section_detail_zhibo_title span {
+    border-bottom: solid 0.06rem #ab0301;
+  }
+  .saishi_info_section_detail_zhibo_list {}
+  .saishi_info_section_detail_zhibo_list a {
+    height: 0.84rem;
+    line-height: 0.84rem;
+    font-size: 0.58rem;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    background: linear-gradient(90deg, #ffb600, #ff6117);
+    display: inline-block;
+    padding: 0.12rem 0.15rem;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 0.12rem;
+    box-sizing: content-box;
   }
 }

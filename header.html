@@ -36,7 +36,7 @@
   <div class="m_header">
     <div class="m_header_main">
       <a class="m_header_main_title" href="/">天天直播</a>
-      <a class="m_header_main_action">
+      <div class="m_header_main_action">
         <img
           src="./images/icon_nav.png"
           class="m_header_main_action_menu"
@@ -45,7 +45,7 @@
           src="./images/icon_close.png"
           class="m_header_main_action_close"
         />
-      </a>
+      </div>
     </div>
     <div class="header_view_nav_container">
       <h3>快速导航</h3>
@@ -62,8 +62,11 @@
 <script src="./js/jquery.min.js"></script>
 <script>
   let showMenu = false;
-  $('.header_view_nav_container').hide();
-  $('.m_header_main_action_close').hide();
+  console.log('navigator.userAgent', navigator.userAgent)
+  if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+      $('.header_view_nav_container').hide();
+      $('.m_header_main_action_close').hide();
+    }
   $('.m_header_main_action').click(function(){
     if (showMenu) {
       showMenu = false;

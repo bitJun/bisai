@@ -118,6 +118,8 @@
   }
   .m_header_main_action {
     width: 0.46rem;
+    height: 1rem;
+    line-height: 1rem;
   }
   .m_header_main_action img {
     width: 0.46rem;
