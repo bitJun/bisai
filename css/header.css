@@ -132,6 +132,7 @@
     top: 1rem;
     width: 100%;
     padding: 0 0.6rem;
+    z-index: 99;
   }
   .header_view_nav_container h3 {
     padding: 0.2rem 0 0.3rem 0;
